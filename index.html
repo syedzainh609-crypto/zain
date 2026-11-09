@@ -1,0 +1,977 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Syed Zain Hussain</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Portfolio of Syed Zain Hussain, a Karachi-based graphic designer, video editor and 2D animator with 7+ years of experience in branding, motion graphics and ad creatives.">
+<meta property="og:title" content="Syed Zain Hussain | Graphic Designer, Video Editor, 2D Animator">
+<meta property="og:description" content="Brand identity, motion graphics, 2D animation and ad creatives. 7+ years of experience. Available for freelance and remote work.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Layout concept: an editor's desk on a living surface. One fixed canvas of flowing contour lines
+   runs the full height of the page and moves with the scroll. Work floats on it with no card
+   backgrounds, hairline guides, crop marks and one ultramarine accent. */
+:root {
+  --bg: #EDEEF0;
+  --surface: #E2E4E8;
+  --ink: #0F1115;
+  --mute: #4B515D;
+  --line: #C3C7CF;
+  --accent: #2E35E6;
+  --on-accent: #FFFFFF;
+  --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --gutter-l: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0C0D10; --surface: #181A1F; --ink: #ECEDEF; --mute: #A3A9B4;
+    --line: #2C2F37; --accent: #8E97FF; --on-accent: #0C0D10; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0C0D10; --surface: #181A1F; --ink: #ECEDEF; --mute: #A3A9B4;
+  --line: #2C2F37; --accent: #8E97FF; --on-accent: #0C0D10; color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+#h1:focus { outline: none; }
+body {
+  background: var(--bg); color: var(--ink);
+  font: 400 1.0625rem/1.6 var(--font-body);
+  padding-left: var(--gutter-l); padding-right: var(--gutter-r);
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 0 14px color-mix(in srgb, var(--bg) 85%, transparent), 0 0 4px color-mix(in srgb, var(--bg) 60%, transparent);
+}
+.btn, .chip, input, select, textarea, .lb, .tags span { text-shadow: none; }
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  background: var(--bg); z-index: 45;
+}
+#bg { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; display: block; }
+#prog { position: fixed; top: env(safe-area-inset-top, 0px); left: 0; right: 0; height: 2px; background: var(--accent); transform-origin: left; transform: scaleX(0); z-index: 41; pointer-events: none; }
+.w { max-width: 1280px; margin-inline: auto; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.03em; line-height: 1.02; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: var(--bg); padding: 8px 14px; z-index: 60; }
+.skip:focus { left: 8px; }
+.mono { font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); }
+
+/* header */
+.site {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40;
+  background: color-mix(in srgb, var(--bg) 70%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line);
+  margin-inline: calc(var(--gutter-l) * -1) calc(var(--gutter-r) * -1);
+  padding-inline: var(--gutter-l) var(--gutter-r);
+}
+.site .w { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-block: 14px; flex-wrap: wrap; }
+.brand { font: 700 1.05rem var(--font-display); letter-spacing: -0.02em; text-decoration: none; }
+.nav { display: flex; align-items: center; gap: clamp(14px, 3vw, 32px); }
+.nl { text-decoration: none; font-size: 0.95rem; font-weight: 500; padding-block: 4px; border-bottom: 1.5px solid transparent; transition: border-color .2s; }
+.nl:hover { border-color: var(--ink); }
+.nl[aria-current="page"] { border-color: var(--accent); }
+.tg { width: 36px; height: 36px; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 50%; cursor: pointer; display: grid; place-items: center; }
+.tg:hover { border-color: var(--ink); }
+
+/* buttons */
+.btn { display: inline-flex; align-items: center; gap: 10px; font: 600 0.95rem var(--font-body); padding: 14px 22px; text-decoration: none; border: 1px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; transition: background .2s, color .2s, border-color .2s, transform .25s ease-out; }
+.btn:hover { background: var(--ink); color: var(--bg); }
+.btn.pri { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.pri:hover { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.btn .ar { transition: transform .2s; }
+.btn:hover .ar { transform: translateX(4px); }
+.row { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* views and reveal */
+.view { padding-block: clamp(32px, 6vw, 72px) 0; animation: vin .5s ease both; }
+@keyframes vin { from { opacity: 0; } to { opacity: 1; } }
+.rv { opacity: 0; transform: translateY(26px); }
+.rv.in { opacity: 1; transform: none; transition: opacity .8s cubic-bezier(.2,.7,.2,1) var(--d, 0ms), transform .8s cubic-bezier(.2,.7,.2,1) var(--d, 0ms); }
+
+/* hero */
+.hero h1 { font-size: clamp(3.3rem, 13.2vw, 11.5rem); font-weight: 800; line-height: 0.88; letter-spacing: -0.05em; margin-top: 18px; }
+.hero h1 > span { display: block; }
+.hero h1 .o { color: transparent; -webkit-text-stroke: 1.5px var(--ink); }
+.ch { display: inline-block; transition: transform .35s cubic-bezier(.2,.7,.2,1), color .25s; }
+.ch:hover { transform: translateY(-0.07em); color: var(--accent); }
+.hero-top { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: baseline; }
+.tc { font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.06em; color: var(--accent); font-variant-numeric: tabular-nums; }
+.hero-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(24px, 5vw, 80px); margin-top: clamp(28px, 5vw, 56px); padding-top: 28px; border-top: 1px solid var(--line); align-items: end; }
+.lede { font-size: clamp(1.2rem, 2.4vw, 1.7rem); line-height: 1.35; letter-spacing: -0.01em; max-width: 30ch; }
+.big7 { display: flex; align-items: baseline; gap: 14px; justify-content: flex-end; }
+.big7 b { font: 800 clamp(4.5rem, 11vw, 9rem)/0.8 var(--font-display); letter-spacing: -0.06em; color: var(--accent); }
+.big7 span { max-width: 14ch; font-size: 0.95rem; color: var(--mute); line-height: 1.3; }
+.hero .row { margin-top: 28px; }
+
+/* marquee words */
+.mq { margin-block: clamp(40px, 7vw, 88px) 0; border-block: 1px solid var(--line); overflow: hidden; margin-inline: calc(var(--gutter-l) * -1) calc(var(--gutter-r) * -1); }
+.mq-t { display: flex; width: max-content; animation: mq 38s linear infinite; }
+.mq:hover .mq-t { animation-play-state: paused; }
+.mq-t span { font: 700 clamp(1.4rem, 3vw, 2.2rem) var(--font-display); letter-spacing: -0.02em; padding: 16px 28px; white-space: nowrap; }
+.mq-t span::after { content: "/"; color: var(--accent); margin-left: 56px; }
+@keyframes mq { to { transform: translateX(-50%); } }
+
+/* stats */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; padding-top: clamp(40px, 6vw, 72px); }
+.stat b { display: block; font: 800 clamp(3.8rem, 9.6vw, 8.5rem)/0.9 var(--font-display); letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
+.stat b .num { display: inline; font: inherit; color: inherit; max-width: none; margin: 0; }
+.stat b i { font-style: normal; color: var(--accent); }
+.stat > span { display: block; margin-top: 12px; color: var(--mute); font-size: 0.95rem; max-width: 22ch; line-height: 1.35; }
+
+/* sections */
+.sec { padding-top: clamp(56px, 9vw, 112px); }
+.sec-h { display: flex; justify-content: space-between; align-items: end; gap: 16px; flex-wrap: wrap; margin-bottom: clamp(24px, 4vw, 44px); }
+.sec-h h2 { font-size: clamp(2rem, 5vw, 3.6rem); }
+
+/* work cards: no card background, artwork floats on the page */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: clamp(24px, 3.4vw, 44px) clamp(16px, 2.4vw, 28px); }
+.card { text-decoration: none; display: block; min-width: 0; }
+.plate { position: relative; aspect-ratio: 4 / 3; max-width: 100%; overflow: hidden; container-type: size; background: none; }
+.plate::before, .plate::after { content: ""; position: absolute; width: 16px; height: 16px; border: 1px solid var(--mute); opacity: .7; z-index: 3; transition: transform .35s cubic-bezier(.2,.7,.2,1), border-color .2s; }
+.plate::before { top: 10px; left: 10px; border-right: 0; border-bottom: 0; }
+.plate::after { bottom: 10px; right: 10px; border-left: 0; border-top: 0; }
+.card:hover .plate::before { transform: translate(-4px, -4px); border-color: var(--accent); }
+.card:hover .plate::after { transform: translate(4px, 4px); border-color: var(--accent); }
+.plate .pc, .plate .pk { position: absolute; z-index: 3; font: 400 0.7rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); }
+.plate .pc { top: 12px; left: 34px; }
+.plate .pk { bottom: 12px; right: 34px; }
+.art { position: absolute; inset: 0; width: 100%; height: 100%; transition: transform .5s cubic-bezier(.2,.7,.2,1); }
+.art .s { fill: none; stroke: var(--ink); stroke-width: 1.6; }
+.art .p { fill: var(--bg); stroke: var(--ink); stroke-width: 1.6; }
+.art .m { fill: none; stroke: var(--mute); stroke-width: 1; stroke-dasharray: 3 5; }
+.art .f { fill: var(--accent); }
+.art .g { fill: var(--ink); }
+.art .ft { fill: none; stroke: var(--accent); stroke-width: 2.4; }
+.card:hover .art { transform: scale(1.05); }
+
+/* fanned artwork, sized from the plate with container units */
+.fan { position: absolute; inset: 0; transition: transform .25s ease-out; transform: perspective(900px) rotateY(calc(var(--tx, 0) * 9deg)) rotateX(calc(var(--ty, 0) * -7deg)); }
+.fan .it { position: absolute; left: 50%; top: 50%; aspect-ratio: var(--ar); height: min(78cqh, calc(var(--wf) * 100cqw / var(--ar))); background: #fff; z-index: var(--z, 1);
+  height: 72%; transform: translate(calc(-50% + var(--ox) * 170%), calc(-50% + var(--oy) * 100%)) rotate(var(--r));
+  transform: translate(-50%, -50%) translate(calc(var(--ox) * 100cqw), calc(var(--oy) * 100cqh)) rotate(var(--r));
+  box-shadow: 0 18px 36px rgba(8, 10, 20, .28), 0 0 0 1px rgba(8, 10, 20, .10); transition: transform .55s cubic-bezier(.2,.7,.2,1); }
+.fan .it img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card:hover .fan .it, .cs-visual .plate:hover .fan .it { transform: translate(-50%, -50%) translate(calc(var(--ox) * 128cqw), calc(var(--oy) * 110cqh)) rotate(calc(var(--r) * 1.5)) scale(1.03); }
+.cm { display: flex; justify-content: space-between; gap: 16px; align-items: start; padding-top: 14px; }
+.cm h3 { font-size: 1.35rem; letter-spacing: -0.02em; }
+.cm p { color: var(--mute); font-size: 0.92rem; margin-top: 4px; }
+.cm .ar { font-size: 1.3rem; transition: transform .25s; color: var(--accent); }
+.card:hover .cm .ar { transform: translate(4px, -4px); }
+.feat { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(20px, 2.6vw, 32px); }
+.feat .card.big { grid-column: 1 / -1; }
+.feat .card.big .plate { aspect-ratio: 21 / 9; }
+.feat .card.big .cm h3 { font-size: clamp(1.6rem, 3vw, 2.4rem); }
+
+/* showreel wall */
+.wall { display: grid; gap: 14px; overflow: hidden; margin-inline: calc(var(--gutter-l) * -1) calc(var(--gutter-r) * -1); }
+.wr { display: flex; width: max-content; animation: wall 80s linear infinite; --h: clamp(150px, 21vw, 250px); }
+.wr.rev { animation-direction: reverse; animation-duration: 95s; }
+.wall:hover .wr { animation-play-state: paused; }
+.set { display: flex; gap: 14px; padding-right: 14px; }
+@keyframes wall { to { transform: translateX(-50%); } }
+.wi { position: relative; flex: none; height: var(--h); padding: 0; border: 0; background: none; cursor: pointer; overflow: hidden; box-shadow: 0 10px 24px rgba(8, 10, 20, .22), 0 0 0 1px rgba(8, 10, 20, .08); transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s; }
+.wi img, .wi video { height: 100%; width: auto; display: block; background: #fff; }
+.wi:hover { transform: translateY(-6px) scale(1.02); z-index: 2; }
+.wi span { position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 12px 10px; font: 400 .7rem var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: #fff; text-align: left; background: linear-gradient(transparent, rgba(8, 10, 20, .72)); opacity: 0; transition: opacity .25s; }
+.wi:hover span, .wi:focus-visible span { opacity: 1; }
+.wi.v::before { content: "\25B6"; position: absolute; top: 10px; right: 10px; z-index: 2; font-size: .6rem; color: #fff; background: rgba(8, 10, 20, .6); padding: 5px 7px; line-height: 1; }
+
+/* client index */
+.ixl { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.ix { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr) auto 24px; gap: 16px; align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--line); text-decoration: none; transition: padding-left .3s cubic-bezier(.2,.7,.2,1), color .2s; }
+.ix:hover, .ix:focus-visible { padding-left: 16px; color: var(--accent); }
+.ix b { font: 700 clamp(1.35rem, 3.2vw, 2.5rem) var(--font-display); letter-spacing: -0.03em; line-height: 1.05; }
+.ix span { color: var(--mute); font-size: .95rem; }
+.ix i { font-style: normal; font-family: var(--font-mono); font-size: .8rem; color: var(--mute); }
+.ix .ar { transition: transform .25s; }
+.ix:hover .ar { transform: translateX(4px); }
+#pv { position: fixed; left: 0; top: 0; width: 260px; z-index: 35; pointer-events: none; opacity: 0; transform: translate(-999px, -999px); transition: opacity .2s; box-shadow: 0 24px 48px rgba(8, 10, 20, .35), 0 0 0 1px rgba(8, 10, 20, .1); background: #fff; }
+#pv.on { opacity: 1; }
+#pv img { width: 100%; height: auto; }
+#cur { position: fixed; left: 0; top: 0; width: 14px; height: 14px; margin: -7px 0 0 -7px; border: 1.5px solid var(--accent); border-radius: 50%; z-index: 70; pointer-events: none; opacity: 0; transition: width .25s, height .25s, margin .25s, background .25s, opacity .2s; display: grid; place-items: center; }
+#cur.vis { opacity: 1; }
+#cur.big { width: 84px; height: 84px; margin: -42px 0 0 -42px; background: color-mix(in srgb, var(--accent) 88%, transparent); }
+#cur span { font: 500 .7rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--on-accent); opacity: 0; transition: opacity .2s; }
+#cur.big span { opacity: 1; }
+@media (hover: none), (pointer: coarse) { #cur, #pv { display: none; } }
+
+/* filters */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 36px; }
+.chip { font: 500 0.9rem var(--font-body); padding: 9px 16px; border: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 55%, transparent); color: var(--ink); cursor: pointer; border-radius: 999px; transition: border-color .2s, background .2s, transform .2s; }
+.chip:hover { border-color: var(--ink); transform: translateY(-2px); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip small { color: var(--mute); margin-left: 6px; font-family: var(--font-mono); }
+.chip[aria-pressed="true"] small { color: var(--bg); opacity: .7; }
+.page-h h1 { font-size: clamp(2.8rem, 9vw, 7.5rem); font-weight: 800; letter-spacing: -0.045em; }
+.page-h p { margin-top: 20px; max-width: 52ch; color: var(--mute); font-size: 1.15rem; }
+.page-h { margin-bottom: clamp(28px, 5vw, 52px); }
+
+/* capabilities */
+.caps { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.caps li { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 16px 32px; padding: 22px 0; border-bottom: 1px solid var(--line); align-items: baseline; transition: padding-left .25s; }
+.caps li:hover { padding-left: 14px; }
+.caps b { font: 700 clamp(1.3rem, 2.6vw, 2rem) var(--font-display); letter-spacing: -0.025em; }
+.caps span { color: var(--mute); }
+
+/* cta */
+.cta { margin-top: clamp(64px, 10vw, 128px); padding-block: clamp(40px, 7vw, 88px); border-top: 1px solid var(--line); display: grid; gap: 28px; }
+.cta h2 { font-size: clamp(2.4rem, 8vw, 6.4rem); letter-spacing: -0.045em; max-width: 14ch; }
+
+/* case study */
+.back { display: inline-block; text-decoration: none; margin-bottom: 28px; }
+.back:hover { color: var(--accent); }
+.cs-h h1 { font-size: clamp(2.6rem, 8.4vw, 7rem); font-weight: 800; letter-spacing: -0.045em; max-width: 16ch; }
+.cs-h .sum { font-size: clamp(1.15rem, 2vw, 1.5rem); max-width: 44ch; margin-top: 22px; line-height: 1.4; }
+.meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px 28px; margin-top: 40px; padding-block: 22px; border-block: 1px solid var(--line); }
+.meta dt { margin-bottom: 6px; }
+.meta dd { margin: 0; font-weight: 500; }
+.cs-visual { margin-top: 36px; }
+.cs-visual .plate { aspect-ratio: 16 / 9; }
+.cs-note { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; padding-top: 16px; }
+.cs-note p { color: var(--mute); font-size: 0.95rem; max-width: 56ch; }
+.gal { columns: 3 260px; column-gap: 16px; margin-top: 28px; }
+.gal figure { margin: 0 0 16px; break-inside: avoid; min-width: 0; }
+.gal .gi { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: pointer; position: relative; box-shadow: 0 14px 30px rgba(8, 10, 20, .22), 0 0 0 1px rgba(8, 10, 20, .08); transition: transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s; }
+.gal .gi:hover { transform: translateY(-5px); }
+.gal .gi img, .gal .gi video { width: 100%; height: auto; display: block; background: #fff; }
+.gal figcaption { margin-top: 10px; }
+.blk { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.2fr); gap: 16px 48px; padding-block: clamp(28px, 4vw, 48px); border-top: 1px solid var(--line); }
+.blk h2 { font: 400 0.75rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); }
+.blk p, .blk ul { font-size: clamp(1.1rem, 1.8vw, 1.35rem); line-height: 1.5; max-width: 46ch; margin: 0; }
+.blk ul { list-style: none; padding: 0; display: grid; gap: 6px; }
+.blk ul li::before { content: "\2192"; color: var(--accent); margin-right: 10px; }
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tags span { border: 1px solid var(--ink); padding: 6px 14px; font-size: 0.95rem; }
+.pn { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; border-top: 1px solid var(--line); margin-top: 24px; }
+.pn a { text-decoration: none; padding-block: 28px; display: block; }
+.pn a:last-child { text-align: right; }
+.pn a b { display: block; font: 700 clamp(1.2rem, 3vw, 2rem) var(--font-display); letter-spacing: -0.025em; margin-top: 6px; }
+.pn a:hover b { color: var(--accent); }
+
+/* about */
+.ab { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: clamp(24px, 6vw, 96px); }
+.ab .intro { font-size: clamp(1.3rem, 2.4vw, 1.8rem); line-height: 1.35; letter-spacing: -0.01em; }
+.ab .intro + p { margin-top: 20px; color: var(--mute); max-width: 52ch; }
+.facts { display: grid; gap: 0; margin-top: 28px; border-top: 1px solid var(--line); }
+.facts div { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.facts dt { color: var(--mute); }
+.facts dd { margin: 0; text-align: right; font-weight: 500; }
+.tl { list-style: none; margin: 0; padding: 0; }
+.tl li { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 8px 28px; padding-block: 22px; border-top: 1px solid var(--line); }
+.tl li:last-child { border-bottom: 1px solid var(--line); }
+.tl h3 { font-size: 1.3rem; letter-spacing: -0.02em; }
+.tl .co { color: var(--mute); margin-top: 2px; }
+.tl p { margin-top: 8px; max-width: 52ch; }
+.sk { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; }
+.sk h3 { font: 400 0.75rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); margin-bottom: 14px; }
+.sk ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 1.1rem; }
+
+/* contact */
+.mail { font: 800 clamp(1.5rem, 6.2vw, 4.6rem)/1.05 var(--font-display); letter-spacing: -0.04em; overflow-wrap: anywhere; user-select: all; }
+.ct { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: clamp(32px, 6vw, 96px); margin-top: clamp(36px, 6vw, 72px); }
+.links { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.links a { display: flex; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid var(--line); text-decoration: none; font: 600 1.15rem var(--font-body); transition: padding-left .25s, color .2s; }
+.links a:hover { padding-left: 12px; color: var(--accent); }
+form { display: grid; gap: 18px; }
+label { display: grid; gap: 6px; }
+label span { font: 400 0.75rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--mute); }
+input, select, textarea { font: 400 1rem var(--font-body); color: var(--ink); background: transparent; border: 0; border-bottom: 1px solid var(--ink); padding: 10px 0; border-radius: 0; width: 100%; min-width: 0; }
+textarea { min-height: 140px; resize: vertical; }
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 0; border-bottom-color: var(--accent); box-shadow: 0 1px 0 var(--accent); }
+select option { background: var(--bg); color: var(--ink); }
+.out { margin-top: 24px; padding: 20px; border: 1px solid var(--accent); display: grid; gap: 14px; }
+.out textarea { border: 1px solid var(--line); padding: 12px; min-height: 180px; }
+.out p { color: var(--mute); }
+
+/* lightbox */
+.lb { position: fixed; inset: 0; z-index: 80; display: grid; place-items: center; background: color-mix(in srgb, var(--bg) 90%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); padding: max(56px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); animation: vin .25s ease both; }
+.lb[hidden] { display: none; }
+.lb figure { margin: 0; display: grid; gap: 14px; justify-items: center; max-width: min(100%, 1100px); max-height: 100%; min-height: 0; }
+.lb #lb-m { display: grid; place-items: center; min-height: 0; }
+.lb #lb-m img, .lb #lb-m video { max-width: 100%; max-height: calc(100vh - 170px); width: auto; height: auto; box-shadow: 0 30px 70px rgba(8, 10, 20, .4); background: #fff; }
+.lb figcaption { display: flex; gap: 8px 24px; flex-wrap: wrap; justify-content: center; align-items: baseline; }
+.lb figcaption a { color: var(--accent); }
+.lb button { position: absolute; width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 80%, transparent); color: var(--ink); font-size: 1.2rem; cursor: pointer; display: grid; place-items: center; transition: border-color .2s, transform .2s; }
+.lb button:hover { border-color: var(--accent); transform: scale(1.06); }
+.lb-x { top: max(12px, env(safe-area-inset-top, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); }
+.lb-p { left: max(12px, env(safe-area-inset-left, 0px)); top: 50%; margin-top: -24px; }
+.lb-n { right: max(12px, env(safe-area-inset-right, 0px)); top: 50%; margin-top: -24px; }
+
+/* footer */
+.foot { margin-top: clamp(64px, 9vw, 112px); border-top: 1px solid var(--line); padding-block: 28px max(28px, 2vw); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; }
+.foot .fl { display: flex; gap: 22px; flex-wrap: wrap; }
+.foot a { text-decoration: none; }
+.foot a:hover { color: var(--accent); }
+
+@media (max-width: 860px) {
+  .hero-grid, .ab, .ct { grid-template-columns: minmax(0, 1fr); }
+  .big7 { justify-content: flex-start; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .feat { grid-template-columns: minmax(0, 1fr); }
+  .feat .card.big .plate { aspect-ratio: 4 / 3; }
+  .caps li { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .blk { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .tl li { grid-template-columns: minmax(0, 1fr); }
+  .ix { grid-template-columns: minmax(0, 1fr) auto 20px; }
+  .ix > span { display: none; }
+  .lb-p, .lb-n { top: auto; bottom: max(12px, env(safe-area-inset-bottom, 0px)); margin-top: 0; }
+}
+@media (max-width: 520px) {
+  .hero h1 { font-size: 18.6vw; }
+  .site .w { padding-block: 10px; }
+  .brand { font-size: 0.95rem; }
+  .nl { font-size: 0.88rem; }
+  .nav { gap: 12px; }
+  .stat > span { max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .view { animation: none; }
+  .rv, .rv.in { opacity: 1; transform: none; transition: none; }
+  .mq-t, .wr { animation: none; }
+  .mq-t { flex-wrap: wrap; width: auto; }
+  .wr { width: auto; max-width: 100%; overflow-x: auto; }
+  .wr .set[aria-hidden="true"] { display: none; }
+  * { transition: none !important; }
+}
+</style>
+
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div id="prog" aria-hidden="true"></div>
+<header class="site">
+  <div class="w">
+    <a class="brand" href="#home" aria-label="Syed Zain Hussain, home">Syed Zain Hussain</a>
+    <nav class="nav" aria-label="Main">
+      <a class="nl" href="#work" data-r="work">Work</a>
+      <a class="nl" href="#about" data-r="about">About</a>
+      <a class="nl" href="#contact" data-r="contact">Contact</a>
+      <button class="tg" id="tg" type="button" aria-label="Switch between light and dark theme">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 2a6 6 0 0 1 0 12z" fill="currentColor"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="w" tabindex="-1"></main>
+
+<footer class="w foot">
+  <div class="mono">&copy; 2026 Syed Zain Hussain &middot; Karachi <span id="clock"></span></div>
+  <div class="fl mono">
+    <a href="https://www.behance.net/syedhussain7" target="_blank" rel="noopener">Behance</a>
+    <a href="https://www.linkedin.com/in/syed-zain-hussain-02a77b1a7/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="http://instagram.com/zain.hussain233" target="_blank" rel="noopener">Instagram</a>
+    <a href="http://youtube.com/@syedzainhussain5628" target="_blank" rel="noopener">YouTube</a>
+  </div>
+</footer>
+
+<div id="lb" class="lb" role="dialog" aria-modal="true" aria-label="Artwork viewer" hidden>
+  <button class="lb-x" type="button" aria-label="Close viewer">&times;</button>
+  <button class="lb-p" type="button" aria-label="Previous piece">&larr;</button>
+  <button class="lb-n" type="button" aria-label="Next piece">&rarr;</button>
+  <figure><div id="lb-m"></div><figcaption class="mono"><span id="lb-c"></span><a id="lb-l" href="#work">Open case study</a><span id="lb-i"></span></figcaption></figure>
+</div>
+<div id="pv" aria-hidden="true"><img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div>
+<div id="cur" aria-hidden="true"><span id="cur-t">View</span></div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Syed Zain Hussain","jobTitle":"Graphic Designer, Video Editor and 2D Animator","address":{"@type":"PostalAddress","addressLocality":"Karachi","addressCountry":"PK"},"email":"syedzainh609@gmail.com","sameAs":["https://www.behance.net/syedhussain7","https://www.linkedin.com/in/syed-zain-hussain-02a77b1a7/","http://instagram.com/zain.hussain233","http://youtube.com/@syedzainhussain5628"]}
+</script>
+
+<script>
+(function () {
+  "use strict";
+  var EMAIL = "syedzainh609@gmail.com";
+  var BEHANCE = "https://www.behance.net/syedhussain7";
+  var CATS = ["Branding", "Graphic Design", "Motion Graphics", "Animation", "Video Editing", "Digital Creatives"];
+  var AS = {"img": {"ds-1": [1000, 1000], "ds-2": [1000, 1000], "ds-3": [1000, 1000], "ds-4": [1000, 1000], "ce-1": [1000, 1000], "ce-2": [1000, 1000], "cc-1": [1000, 523], "cc-2": [1000, 1250], "cc-3": [1000, 1000], "cc-4": [720, 1280], "np-1": [1000, 523], "np-2": [1000, 1000], "np-3": [1000, 1000], "np-4": [1000, 1000], "np-5": [1000, 1000], "ck-1": [720, 1280], "ck-2": [1000, 1000], "ck-3": [720, 1280], "ck-4": [1000, 523], "bn-1": [1000, 1000], "maryland-1": [900, 900], "maryland-2": [900, 900], "maryland-3": [900, 900], "maryland-4": [900, 900], "social-1": [760, 950], "social-2": [760, 950], "social-3": [760, 950], "social-4": [760, 950], "logo-1": [960, 540], "logo-2": [960, 540], "logo-3": [960, 540], "reel-pk": [560, 560]}, "vid": {"logo-1": [640, 360], "logo-2": [640, 360], "logo-3": [640, 360], "reel-pk": [560, 560]}};
+  var FINE = window.matchMedia && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+  var REDUCE = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var ar = '<span class="ar" aria-hidden="true">&rarr;</span>';
+  function gb(slug) { return "https://www.behance.net/gallery/" + slug; }
+  var SUITE = "Adobe Creative Suite";
+
+  /* One entry per project. Behance projects link out; client work comes from the Drive portfolio folders. */
+  var P = [
+    { slug: "maryland-author-house", title: "Maryland Author House", k: 12, year: "2026", date: "June 2026", kind: "Brand identity and marketing design",
+      cats: ["Branding", "Graphic Design", "Digital Creatives"], tools: ["Photoshop", "Illustrator"], url: gb("251727495/Maryland-Author-House-Branding"),
+      sum: "A brand identity and marketing system for a publishing and author-support company that helps writers publish, promote and grow their books.",
+      obj: "Create a professional brand identity that reflects trust, creativity and expertise within the publishing industry.",
+      app: "A cohesive visual system that gives the brand a strong, recognizable presence and explains its services clearly to aspiring and established authors. Strategic branding is paired with marketing-focused design so the identity supports audience engagement, brand awareness and business growth.",
+      del: ["Logo design", "Visual identity development", "Color palette selection", "Typography guidelines", "Social media creatives", "Advertising campaigns", "Marketing assets"] },
+    { slug: "the-click-commerce", title: "The Click Commerce", client: "The Click Commerce", k: 14, year: "2025", date: "2025", kind: "E-commerce service ads",
+      cats: ["Digital Creatives", "Graphic Design"], tools: [SUITE], url: BEHANCE,
+      sum: "Ad creatives for Walmart and Shopify automation services, from three-tier plan breakdowns to single-offer promos.",
+      obj: "Explain done-for-you e-commerce automation services and their pricing clearly, so prospects can compare plans at a glance.",
+      app: "Dense service information is organized into plan tiers with check-marked feature lists, price callouts and one call to action. The same offer is adapted to landscape, square, portrait and story formats so it fits every placement.",
+      del: ["Walmart automation ads", "Shopify store automation ad", "Plan and pricing layouts", "Multi-format adaptations"] },
+    { slug: "the-nation-publishers", title: "The Nation Publishers", client: "The Nation Publishers", k: 10, year: "2025", date: "2025", kind: "Publishing package carousel and ads",
+      cats: ["Digital Creatives", "Graphic Design"], tools: [SUITE], url: BEHANCE,
+      sum: "A swipeable carousel and ad set that promotes three book publishing packages.",
+      obj: "Present the Starter, Author's and All-in-One kits so authors can see what each includes and choose a package.",
+      app: "A navy and white system carries the carousel: an opening hook, then one slide per kit with price, inclusions and a sample book cover, each ending on a swipe prompt. A landscape ad repeats the offer for feed and web placements.",
+      del: ["Four-slide carousel", "Landscape promo ad", "Package price layouts"] },
+    { slug: "clikies", title: "Clikies", client: "Clikies", k: 16, year: "2025", date: "2025", kind: "Social media marketing ads",
+      cats: ["Digital Creatives", "Graphic Design"], tools: [SUITE], url: BEHANCE,
+      sum: "Ad creatives for a social media marketing agency, built around monthly plans and a clear starting price.",
+      obj: "Present social media plans clearly and drive enquiries.",
+      app: "High-contrast black and yellow keeps the offer readable in a fast feed. Plan tiers, a starting price and a mock social post show the service at a glance, in square, landscape and story sizes.",
+      del: ["Plan pricing ad", "Square and landscape ads", "Story format"] },
+    { slug: "dha-suffa-university", title: "DHA Suffa University", client: "DHA Suffa University", k: 8, year: "2023", date: "February to July 2023", kind: "Event and recruitment campaigns",
+      cats: ["Graphic Design", "Digital Creatives"], tools: [SUITE], url: BEHANCE, result: "Student engagement up 25%",
+      sum: "Event announcements, seminar posters and promotional posts for DHA Suffa University and its entrepreneurship centre.",
+      obj: "Promote university events, seminars and campus activities, and give students a clear reason to attend.",
+      app: "Each piece follows the university identity, with the date, venue and speakers set to read first. Layouts shift between a single bold message, photo-led announcements and denser seminar formats with panelists. Creative changes were guided by engagement data.",
+      del: ["Expo promotion", "Industry talk announcement", "Seminar and panel poster", "Community walk announcement"] },
+    { slug: "celeste-bpo-hiring", title: "Celeste BPO Hiring", client: "Celeste BPO Solutions", k: 18, year: "2023", date: "2021 and 2023", kind: "Recruitment ads",
+      cats: ["Digital Creatives", "Graphic Design", "Animation"], tools: [SUITE], url: BEHANCE,
+      sum: "Hiring posts for an outbound USA customer-service campaign, plus the Celeste logo animation.",
+      obj: "Attract fresh and experienced customer service representatives for an outbound USA campaign.",
+      app: "A bold hiring headline leads each post, with salary, shift and requirements set for quick scanning and a clear call to apply. The two campaigns show the look moving from a dark neon style to a bright, friendly one.",
+      del: ["Hiring posts, 2021 and 2023", "Requirement and shift layouts", "Application call to action", "Logo animation"] },
+    { slug: "social-media-design", title: "Social Media Design", k: 16, year: "2026", date: "January 2026", kind: "Ad creatives and social posts",
+      cats: ["Digital Creatives", "Graphic Design"], tools: ["Photoshop", "Illustrator"], url: gb("241826719/SOCIAL-MEDIA-DESIGN"),
+      sum: "High-converting ad creatives designed to lift engagement and sales.",
+      obj: "Increase engagement and sales through social media ads and Instagram posts.",
+      app: "Each creative is built as an ad first: a clear message, strong branding and a layout made to stop the scroll on Instagram and other social feeds.",
+      del: ["Instagram post designs", "Social media ad creatives", "Branded post layouts"] },
+    { slug: "animated-logo-motion-design", title: "Animated Logo Motion Design", k: 20, year: "2022", date: "June 2022", kind: "Logo animation and intros",
+      cats: ["Animation", "Motion Graphics", "Branding"], tools: ["After Effects"], url: gb("146148259/Animated-Logo-Motion-Design"),
+      sum: "Logo animations and intro videos for a range of brands.",
+      obj: "Give static brand marks movement, so they open videos and ads with more presence.",
+      app: "Each mark is animated to suit the brand it belongs to, from corporate to bakery, and finished as a short intro that can open any video.",
+      del: ["Celeste BPO Solutions", "Dulcye Bakery", "ITGN", "Tv Knot", "VectraCom", "Yebhee", "A personal ZH intro"] },
+    { slug: "book-trailer", title: "Book Trailer Design", k: 8, year: "2026", date: "January 2026", kind: "Motion design and video editing",
+      cats: ["Motion Graphics", "Video Editing", "Animation"], tools: ["After Effects"], url: gb("241827897/BOOK-TRAILER-DESIGN"),
+      sum: "A promotional trailer for a book, built as a motion design piece.",
+      obj: "Promote a book through a short, atmospheric trailer for social and advertising use.",
+      app: "The trailer focuses on three things: pacing, typography animation and visual mood. The edit sets the rhythm, and the type moves with it to carry the story.",
+      del: ["Book promotional trailer", "Typography animation", "Edit and pacing"] },
+    { slug: "new-year-video-motion-graphics", title: "New Year Video Motion Graphics", k: 14, year: "2022", date: "July 2022", role: "Motion Designer", kind: "Social media motion graphics",
+      cats: ["Motion Graphics", "Video Editing", "Animation", "Digital Creatives"], tools: ["After Effects", "Illustrator"], url: gb("148611331/New-Year-Video-Motion-Graphics"),
+      sum: "A dynamic motion graphics video made to celebrate New Year events on social media.",
+      obj: "Celebrate New Year events on social media with a video that holds attention.",
+      app: "Fluid transitions, impactful typography and a festive color harmony, all designed to lift audience engagement.",
+      del: ["New Year motion graphics video", "Typography animation", "Transitions"] },
+    { slug: "2d-animation-2026", title: "2D Animation", k: 10, year: "2026", date: "March 2026", kind: "Motion design",
+      cats: ["Animation", "Motion Graphics"], tools: ["Illustrator", "After Effects"], url: gb("245999903/2D-Animation"),
+      sum: "A smooth, engaging 2D animation with a modern, professional style.",
+      obj: "Communicate ideas clearly through animation.",
+      app: "The work centers on timing, transitions and visual storytelling, with illustration built in Illustrator and animated in After Effects.",
+      del: ["2D animated video", "Illustration", "Transitions and timing"] },
+    { slug: "2d-animation-2025", title: "2D Animation", k: 18, year: "2025", date: "December 2025", kind: "Flat concept animation",
+      cats: ["Animation", "Motion Graphics"], tools: ["After Effects", "Illustrator"], url: gb("241140387/2D-Animation"),
+      sum: "A short flat-style animation built around visual storytelling.",
+      obj: "Tell a short story clearly through flat, creative motion.",
+      app: "A short concept piece that leans on timing, transitions and visual storytelling, with a flat illustration style that keeps the message easy to read.",
+      del: ["Short 2D animation", "Flat illustration", "Visual storytelling"] },
+    { slug: "ui-ux", title: "UI/UX Design", k: 6, year: "2021", date: "December 2021", kind: "Mobile app interface design",
+      cats: ["Graphic Design"], tools: ["Illustrator", "Adobe XD"], url: gb("133079089/UIUX"),
+      sum: "A user-focused mobile app interface built for usability and a modern look.",
+      obj: "Give users a smooth experience through clear layouts and a consistent visual language.",
+      app: "The interface emphasizes usability, layout clarity and modern aesthetics, and keeps visual consistency across every screen.",
+      del: ["Mobile app UI design", "Layout and visual system", "Screen design in Adobe XD"] }
+  ];
+
+  /* Artwork per project. `stack` is the cover (left, right, centre), `gal` is the case-study gallery.
+     Gallery entries starting with "v:" are looping videos. */
+  var MEDIA = {
+    "maryland-author-house": { stack: ["maryland-2", "maryland-3", "maryland-1"], gal: ["maryland-1", "maryland-2", "maryland-3", "maryland-4"], alt: "Maryland Author House promotional post", note: "Four promotional posts from the Maryland Author House campaign. The full brand identity is on Behance." },
+    "the-click-commerce": { stack: ["cc-3", "cc-4", "cc-2"], gal: ["cc-2", "cc-3", "cc-4", "cc-1"], alt: "The Click Commerce ad creative", note: "Walmart and Shopify automation ads in four formats." },
+    "the-nation-publishers": { stack: ["np-3", "np-5", "np-2"], gal: ["np-2", "np-3", "np-4", "np-5", "np-1"], alt: "The Nation Publishers carousel slide", note: "The carousel in order, then the landscape ad." },
+    "clikies": { stack: ["ck-3", "ck-1", "ck-2"], gal: ["ck-2", "ck-3", "ck-1", "ck-4"], alt: "Clikies ad creative", note: "Square, story and landscape versions of the plan ads." },
+    "dha-suffa-university": { stack: ["ds-3", "ds-4", "ds-2"], gal: ["ds-2", "ds-1", "ds-4", "ds-3"], alt: "DHA Suffa University event post", note: "Event, seminar and community posts for the university." },
+    "celeste-bpo-hiring": { stack: ["ce-1", "ce-2"], gal: ["ce-2", "ce-1", "v:logo-2"], alt: "Celeste BPO hiring post", note: "Two hiring posts and the Celeste logo animation, playing as a loop." },
+    "social-media-design": { stack: ["social-2", "social-3", "social-1"], gal: ["social-1", "social-4", "social-2", "social-3"], alt: "Social media ad creative", note: "Ad creatives for Success Ecom, an e-commerce business-growth brand. More ad work is on Behance." },
+    "animated-logo-motion-design": { mode: "diag", stack: ["logo-2", "logo-3", "logo-1"], gal: ["v:logo-1", "v:logo-2", "v:logo-3"], alt: "Animated logo", labels: ["Dulcye Bakery", "Celeste BPO Solutions", "ZH personal intro"], note: "Three of the animations, playing as loops. The full set is on Behance." }
+  };
+  P.forEach(function (p) { var m = MEDIA[p.slug]; if (m) { p.stack = m.stack; p.gal = m.gal; p.mode = m.mode; p.galAlt = m.alt; p.galNote = m.note; p.labels = m.labels; } });
+  var bySlug = {}; P.forEach(function (p) { bySlug[p.slug] = p; });
+  var featured = ["maryland-author-house", "the-click-commerce", "dha-suffa-university", "animated-logo-motion-design"];
+  var state = { cat: "All" };
+
+  /* Showreel wall: [id, label, case study]. "v:" ids are videos. */
+  var WALL = [
+    ["maryland-1", "Maryland Author House", "maryland-author-house"], ["cc-2", "The Click Commerce", "the-click-commerce"], ["ds-2", "DHA Suffa University", "dha-suffa-university"],
+    ["v:logo-1", "Dulcye Bakery logo animation", "animated-logo-motion-design"], ["np-2", "The Nation Publishers", "the-nation-publishers"], ["ck-2", "Clikies", "clikies"],
+    ["social-1", "Social Media Design", "social-media-design"], ["ce-2", "Celeste BPO Hiring", "celeste-bpo-hiring"], ["bn-1", "Dulcye Bakery chocolate beans", "animated-logo-motion-design"],
+    ["maryland-3", "Maryland Author House", "maryland-author-house"], ["v:reel-pk", "Pakistan Day video", "dha-suffa-university"], ["cc-3", "The Click Commerce", "the-click-commerce"],
+    ["ds-4", "DHA Suffa University", "dha-suffa-university"], ["np-3", "The Nation Publishers", "the-nation-publishers"], ["v:logo-2", "Celeste logo animation", "celeste-bpo-hiring"],
+    ["ck-3", "Clikies", "clikies"], ["social-3", "Social Media Design", "social-media-design"], ["ce-1", "Celeste BPO Hiring", "celeste-bpo-hiring"],
+    ["maryland-2", "Maryland Author House", "maryland-author-house"], ["cc-4", "The Click Commerce", "the-click-commerce"], ["ds-1", "DHA Suffa University", "dha-suffa-university"],
+    ["np-5", "The Nation Publishers", "the-nation-publishers"], ["v:logo-3", "ZH personal intro animation", "animated-logo-motion-design"], ["ck-1", "Clikies", "clikies"],
+    ["social-2", "Social Media Design", "social-media-design"], ["ds-3", "DHA Suffa University", "dha-suffa-university"], ["maryland-4", "Maryland Author House", "maryland-author-house"],
+    ["np-4", "The Nation Publishers", "the-nation-publishers"], ["cc-1", "The Click Commerce", "the-click-commerce"], ["social-4", "Social Media Design", "social-media-design"]
+  ];
+
+  /* media helpers */
+  function mediaOf(id) {
+    if (id.indexOf("v:") === 0) { var n = id.slice(2), d = AS.vid[n]; return { t: "v", name: n, src: "vid/" + n + ".mp4", poster: "img/" + n + ".jpg", w: d[0], h: d[1] }; }
+    var e = AS.img[id]; return { t: "i", name: id, src: "img/" + id + ".jpg", w: e[0], h: e[1] };
+  }
+  function tag(m, alt, lazy) {
+    if (m.t === "v") return '<video src="' + m.src + '" poster="' + m.poster + '" width="' + m.w + '" height="' + m.h + '" muted loop playsinline preload="metadata"' + (REDUCE ? "" : " autoplay") + ' aria-label="' + alt + '"></video>';
+    return '<img src="' + m.src + '" width="' + m.w + '" height="' + m.h + '" alt="' + alt + '" loading="' + (lazy === false ? "eager" : "lazy") + '" decoding="async">';
+  }
+
+  var ART = (function () {
+    function rays() { var s = ""; for (var i = 0; i < 16; i++) { var a = i * Math.PI / 8, r1 = 38, r2 = i % 2 ? 66 : 92; s += '<line class="s" x1="' + (200 + r1 * Math.cos(a)).toFixed(1) + '" y1="' + (150 + r1 * Math.sin(a)).toFixed(1) + '" x2="' + (200 + r2 * Math.cos(a)).toFixed(1) + '" y2="' + (150 + r2 * Math.sin(a)).toFixed(1) + '"/>'; } return s; }
+    function onion() { var s = ""; for (var i = 0; i < 5; i++) { var x = 70 + i * 65, y = 190 - Math.sin(i / 4 * Math.PI) * 90; s += '<circle class="' + (i === 4 ? "f" : "s") + '" cx="' + x + '" cy="' + y.toFixed(1) + '" r="' + (14 + i * 3) + '" style="opacity:' + (i === 4 ? 1 : 0.25 + i * 0.15) + '"/>'; } return s; }
+    return {
+      "book-trailer": '<line class="m" x1="30" y1="86" x2="370" y2="86"/><rect class="s" x="48" y="92" width="150" height="16"/><rect class="f" x="118" y="118" width="176" height="16" style="opacity:.85"/><rect class="s" x="78" y="144" width="204" height="16"/><rect class="s" x="186" y="170" width="140" height="16"/><rect class="s" x="60" y="196" width="96" height="16"/><path class="g" d="M118 126l6 6-6 6-6-6zM294 126l6 6-6 6-6-6zM186 152l6 6-6 6-6-6z"/><line class="ft" x1="238" y1="66" x2="238" y2="228"/><path class="f" d="M229 60h18l-9 13z"/>',
+      "new-year-video-motion-graphics": '<circle class="m" cx="200" cy="150" r="108"/>' + rays() + '<circle class="f" cx="200" cy="150" r="24"/><circle class="s" cx="200" cy="150" r="30"/>',
+      "2d-animation-2026": '<line class="s" x1="56" y1="64" x2="56" y2="236"/><line class="s" x1="56" y1="236" x2="350" y2="236"/><line class="m" x1="56" y1="150" x2="350" y2="150"/><path class="ft" d="M56 236C170 236 150 76 346 76"/><path class="s" d="M56 216C200 216 180 112 346 124" style="opacity:.55"/><circle class="g" cx="56" cy="236" r="5"/><circle class="g" cx="346" cy="76" r="5"/><circle class="f" cx="205" cy="156" r="9"/>',
+      "2d-animation-2025": '<path class="m" d="M70 190Q200 20 330 190"/>' + onion(),
+      "ui-ux": '<g><rect class="p" x="52" y="78" width="84" height="144" rx="10"/><rect class="g" x="62" y="90" width="64" height="10"/><rect class="s" x="62" y="112" width="64" height="38"/><line class="s" x1="62" y1="164" x2="116" y2="164"/><line class="s" x1="62" y1="176" x2="100" y2="176"/><rect class="f" x="62" y="194" width="64" height="16" rx="8"/></g><g><rect class="p" x="158" y="64" width="84" height="172" rx="10"/><rect class="f" x="168" y="76" width="64" height="64" rx="6"/><line class="s" x1="168" y1="156" x2="222" y2="156"/><line class="s" x1="168" y1="168" x2="206" y2="168"/><rect class="g" x="168" y="206" width="64" height="16" rx="8"/></g><g><rect class="p" x="264" y="78" width="84" height="144" rx="10"/><rect class="s" x="274" y="90" width="64" height="22" rx="4"/><rect class="s" x="274" y="120" width="64" height="22" rx="4"/><rect class="f" x="274" y="150" width="64" height="22" rx="4"/><rect class="s" x="274" y="180" width="64" height="22" rx="4"/></g>'
+    };
+  })();
+  function art(p) { return '<svg class="art" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' + (ART[p.slug] || "") + "</svg>"; }
+
+  function fan(p) {
+    var s = p.stack, n = s.length, diag = p.mode === "diag";
+    var roles = n === 2 ? [{ ox: -.2, oy: 0, r: -5, wf: .42, z: 1 }, { ox: .2, oy: 0, r: 5, wf: .42, z: 2 }]
+      : diag ? [{ ox: -.19, oy: -.2, r: -3, wf: .42, z: 1 }, { ox: .19, oy: .2, r: 3, wf: .42, z: 1 }, { ox: 0, oy: 0, r: 0, wf: .5, z: 2 }]
+      : [{ ox: -.3, oy: .02, r: -7, wf: .36, z: 1 }, { ox: .3, oy: .02, r: 7, wf: .36, z: 1 }, { ox: 0, oy: 0, r: 0, wf: .46, z: 2 }];
+    return '<div class="fan" aria-hidden="true">' + s.map(function (nm, i) {
+      var d = AS.img[nm], r = roles[i];
+      return '<span class="it" style="--ar:' + (d[0] / d[1]).toFixed(4) + ";--wf:" + r.wf + ";--ox:" + r.ox + ";--oy:" + r.oy + ";--r:" + r.r + "deg;--z:" + r.z + '"><img src="img/' + nm + '.jpg" width="' + d[0] + '" height="' + d[1] + '" alt="" loading="' + (i === n - 1 ? "eager" : "lazy") + '" decoding="async"></span>';
+    }).join("") + "</div>";
+  }
+  function plate(p) { return '<div class="plate">' + (p.stack ? fan(p) : art(p)) + '<span class="pc">' + p.cats[0] + '</span><span class="pk">' + p.tools.join(" + ") + "</span></div>"; }
+  function card(p, big) {
+    return '<a class="card' + (big ? " big" : "") + '" href="#case-' + p.slug + '">' + plate(p) + '<div class="cm"><div><h3>' + p.title + "</h3><p>" + p.kind + " &middot; " + p.year + "</p></div>" + ar + "</div></a>";
+  }
+  function chars(s, cls) { return '<span class="' + (cls || "") + '" aria-hidden="true">' + s.split("").map(function (c) { return c === " " ? " " : '<span class="ch">' + c + "</span>"; }).join("") + "</span>"; }
+
+  function cta() {
+    return '<section class="cta" aria-labelledby="ct-h"><span class="mono">Available for freelance and remote projects</span><h2 id="ct-h">Have a brand, a campaign or a story to move?</h2>' +
+      '<div class="row"><a class="btn pri" href="#contact">Start a project ' + ar + '</a><a class="btn" href="' + BEHANCE + '" target="_blank" rel="noopener">Full Behance portfolio ' + ar + "</a></div></section>";
+  }
+
+  function wallRow(items, rev) {
+    var set = function (hide) {
+      return '<div class="set"' + (hide ? ' aria-hidden="true"' : "") + ">" + items.map(function (w) {
+        var m = mediaOf(w[0]);
+        return '<button class="wi' + (m.t === "v" ? " v" : "") + '" type="button" data-w="' + WALL.indexOf(w) + '"' + (hide ? ' tabindex="-1"' : "") + ' aria-label="Open ' + w[1] + '">' + tag(m, w[1]) + "<span>" + w[1] + "</span></button>";
+      }).join("") + "</div>";
+    };
+    return '<div class="wr' + (rev ? " rev" : "") + '">' + set(false) + set(true) + "</div>";
+  }
+
+  var views = {
+    home: function () {
+      var f = featured.map(function (s, i) { return card(bySlug[s], i === 0); }).join("");
+      var caps = [
+        ["Graphic design and visual communication", "Layouts, ads and print-ready design that say one thing clearly."],
+        ["Brand identity and branding", "Logos, color, typography and guidelines, as in the Maryland Author House system."],
+        ["Motion graphics and 2D animation", "Animated logos, trailers and explainers built in After Effects."],
+        ["Video editing and post-production", "Pacing, typography and mood for trailers and social video."],
+        ["Social media and marketing creatives", "High-converting ad creatives for feeds and campaigns."],
+        ["Digital campaigns and creative content", "Campaign assets that stay consistent across every platform."],
+        ["E-commerce and publishing design", "Product visuals, eBooks and author branding."]
+      ].map(function (c) { return "<li><b>" + c[0] + "</b><span>" + c[1] + "</span></li>"; }).join("");
+      var words = ["Brand identity", "Motion graphics", "2D animation", "Video editing", "Ad creatives", "eBook design", "E-commerce visuals", "Social content"];
+      var mq = words.map(function (w) { return "<span>" + w + "</span>"; }).join("");
+      var stats = [[7, "+", "years designing and animating"], [30, "+", "global freelance clients"], [20, "%", "campaign engagement lift at Delve 12"], [25, "%", "student engagement lift at DHA Suffa University"]]
+        .map(function (s) { return '<div class="stat"><b><span class="num" data-to="' + s[0] + '">' + s[0] + "</span><i>" + s[1] + "</i></b><span>" + s[2] + "</span></div>"; }).join("");
+      var even = WALL.filter(function (w, i) { return i % 2 === 0; }), odd = WALL.filter(function (w, i) { return i % 2 === 1; });
+      var index = P.map(function (p) {
+        var cover = p.stack ? 'data-img="img/' + p.stack[p.stack.length - 1] + '.jpg"' : "";
+        return '<li><a class="ix" href="#case-' + p.slug + '" ' + cover + "><b>" + (p.client || p.title) + "</b><span>" + p.kind + "</span><i>" + p.year + "</i>" + ar + "</a></li>";
+      }).join("");
+      return '<section class="hero" aria-labelledby="h1">' +
+        '<div class="hero-top"><span class="mono">Karachi, Pakistan &middot; Open to freelance and remote work</span><span class="tc" id="tc" aria-hidden="true">TC 00:00:00:00</span></div>' +
+        '<h1 id="h1" tabindex="-1" aria-label="Syed Zain Hussain">' + chars("Syed Zain") + chars("Hussain", "o") + "</h1>" +
+        '<div class="hero-grid"><div><p class="lede">Graphic designer, video editor and 2D animator. I make ad creatives, brand visuals and motion that look good and drive results.</p>' +
+        '<div class="row"><a class="btn pri" href="#work">View work ' + ar + '</a><a class="btn" href="#contact">Get in touch ' + ar + "</a></div></div>" +
+        '<div class="big7" aria-label="7 plus years of experience"><b>7+</b><span>years designing and animating for clients worldwide</span></div></div></section>' +
+        '<div class="mq" aria-hidden="true"><div class="mq-t">' + mq + mq + "</div></div>" +
+        '<section class="stats" aria-label="Results in numbers">' + stats + "</section>" +
+        '<section class="sec" aria-labelledby="fw"><div class="sec-h"><h2 id="fw">Selected work</h2><a class="btn" href="#work">All projects ' + ar + '</a></div><div class="feat">' + f + "</div></section>" +
+        '<section class="sec" aria-labelledby="sw"><div class="sec-h"><h2 id="sw">Showreel wall</h2><span class="mono">Hover to pause &middot; click to open</span></div>' +
+        '<div class="wall">' + wallRow(even, false) + wallRow(odd, true) + "</div></section>" +
+        '<section class="sec" aria-labelledby="ci"><div class="sec-h"><h2 id="ci">Clients and projects</h2><span class="mono">' + P.length + " case studies</span></div><ul class=\"ixl\">" + index + "</ul></section>" +
+        '<section class="sec" aria-labelledby="cp"><div class="sec-h"><h2 id="cp">What I do</h2></div><ul class="caps">' + caps + "</ul></section>" + cta();
+    },
+    work: function () {
+      var list = P.filter(function (p) { return state.cat === "All" || p.cats.indexOf(state.cat) > -1; });
+      var chips = ["All"].concat(CATS).map(function (c) {
+        var n = c === "All" ? P.length : P.filter(function (p) { return p.cats.indexOf(c) > -1; }).length;
+        return '<button class="chip" type="button" data-cat="' + c + '" aria-pressed="' + (state.cat === c) + '">' + c + "<small>" + n + "</small></button>";
+      }).join("");
+      return '<div class="page-h"><span class="mono">Work &middot; 2021 to 2026</span><h1 id="h1" tabindex="-1">Selected projects</h1>' +
+        "<p>Brand systems, campaigns and motion from my Behance profile and client work. Open one for the brief, the approach and the pieces behind it.</p></div>" +
+        '<div class="filters" role="group" aria-label="Filter projects by category">' + chips + "</div>" +
+        '<div class="grid" id="grid">' + list.map(function (p) { return card(p); }).join("") + "</div>" + cta();
+    },
+    about: function () {
+      var tl = [
+        ["Jul 2024 &ndash; now", "Senior Graphic Designer and Animator", "Delve 12", "Lead design and animation for product campaigns, e-commerce visuals and branded digital content. Mentor designers and animators. Campaign engagement up 20%."],
+        ["Jul 2023 &ndash; Jul 2024", "Creative Lead", "Inoviotech", "Directed creative execution for digital and e-commerce campaigns and turned client briefs into visual concepts and motion sequences."],
+        ["Feb &ndash; Jul 2023", "Creative Designer and Editor", "DHA Suffa University", "Built recruitment and event campaigns and multimedia content. Student engagement up 25%."],
+        ["Nov 2020 &ndash; Oct 2021", "Creative Designer", "Vectracom", "Produced campaign assets for broadcast and digital channels while keeping the brand consistent."],
+        ["2018 &ndash; now", "Freelance Creative Consultant", "Remote", "Branding, motion design, eBook publishing and e-commerce visuals for 30+ global clients."]
+      ].map(function (r) { return "<li><span class='mono'>" + r[0] + "</span><div><h3>" + r[1] + "</h3><p class='co'>" + r[2] + "</p><p>" + r[3] + "</p></div></li>"; }).join("");
+      return '<div class="page-h"><span class="mono">About</span><h1 id="h1" tabindex="-1">Design that moves, and sells.</h1></div>' +
+        '<div class="ab"><div><p class="intro">I\'m a graphic designer and 2D animator with 7+ years of experience making ad creatives and visual content that perform.</p>' +
+        "<p>I specialize in social media ads, motion graphics and brand visuals. I have worked with clients across many industries to improve engagement, reach and conversions through strategic design.</p>" +
+        '<dl class="facts"><div><dt>Based in</dt><dd>Karachi, Pakistan</dd></div><div><dt>Experience</dt><dd>7+ years</dd></div><div><dt>Clients</dt><dd>30+ worldwide</dd></div><div><dt>Availability</dt><dd>Freelance and remote</dd></div></dl></div>' +
+        '<div><span class="mono">Experience</span><ul class="tl" style="margin-top:16px">' + tl + "</ul></div></div>" +
+        '<section class="sec" aria-labelledby="sk"><div class="sec-h"><h2 id="sk">Skills and software</h2></div><div class="sk">' +
+        "<div><h3>Software</h3><ul><li>Adobe Photoshop</li><li>Adobe Illustrator</li><li>Adobe After Effects</li><li>Adobe XD</li></ul></div>" +
+        "<div><h3>Creative</h3><ul><li>Art direction</li><li>Branding and visual identity</li><li>Motion graphics and 2D animation</li><li>Video editing</li></ul></div>" +
+        "<div><h3>Delivery</h3><ul><li>Creative strategy</li><li>Team leadership</li><li>E-commerce and eBook design</li><li>Remote, deadline-driven work</li></ul></div>" +
+        "<div><h3>Education</h3><ul><li>B.S. Mass Communication, Federal Urdu University, 2024</li><li>Diploma in Electronics Engineering, 2020</li><li>Arena Multimedia, 2018</li></ul></div></div></section>" + cta();
+    },
+    contact: function () {
+      var opts = ["Brand identity", "Motion graphics or animation", "Video editing", "Social media or ad creatives", "E-commerce or eBook design", "Something else"].map(function (o) { return "<option>" + o + "</option>"; }).join("");
+      return '<div class="page-h"><span class="mono">Contact</span><h1 id="h1" tabindex="-1">Let\'s make something.</h1></div>' +
+        '<p class="mono" style="margin-bottom:12px">Email</p><p class="mail">' + EMAIL + "</p>" +
+        '<div class="row" style="margin-top:24px"><a class="btn pri" href="mailto:' + EMAIL + '">Email me ' + ar + '</a><button class="btn" type="button" id="cp-mail">Copy address</button></div>' +
+        '<p class="mono" id="cp-note" role="status" style="margin-top:10px;min-height:1.2em"></p>' +
+        '<div class="ct"><div><p class="mono" style="margin-bottom:12px">Elsewhere</p><ul class="links">' +
+        '<li><a href="' + BEHANCE + '" target="_blank" rel="noopener">Behance <span aria-hidden="true">&nearr;</span></a></li>' +
+        '<li><a href="https://www.linkedin.com/in/syed-zain-hussain-02a77b1a7/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">&nearr;</span></a></li>' +
+        '<li><a href="http://instagram.com/zain.hussain233" target="_blank" rel="noopener">Instagram <span aria-hidden="true">&nearr;</span></a></li>' +
+        '<li><a href="http://youtube.com/@syedzainhussain5628" target="_blank" rel="noopener">YouTube <span aria-hidden="true">&nearr;</span></a></li></ul></div>' +
+        '<div><p class="mono" style="margin-bottom:12px">Project enquiry</p><form id="cf" novalidate>' +
+        '<label><span>Your name</span><input id="f-name" name="name" autocomplete="name" required></label>' +
+        '<label><span>Your email</span><input id="f-email" name="email" type="email" autocomplete="email" required></label>' +
+        '<label><span>Project type</span><select id="f-type" name="type">' + opts + "</select></label>" +
+        '<label><span>Tell me about it</span><textarea id="f-msg" name="msg" required></textarea></label>' +
+        '<div class="row"><button class="btn pri" type="submit">Prepare message ' + ar + "</button></div>" +
+        '<p id="f-err" class="mono" role="alert" style="color:var(--accent)"></p></form>' +
+        '<div class="out" id="out" hidden><p>Your message is ready. It has not been sent yet. Copy it and email it to ' + EMAIL + ", or open it in your email app.</p>" +
+        '<textarea id="out-t" readonly aria-label="Prepared message"></textarea><div class="row"><button class="btn pri" type="button" id="out-copy">Copy message</button><a class="btn" id="out-mail" href="#">Open in email app</a></div>' +
+        '<p class="mono" id="out-note" role="status"></p></div></div></div>';
+    }
+  };
+
+  function caseStudy(p) {
+    var i = P.indexOf(p), prev = P[(i + P.length - 1) % P.length], next = P[(i + 1) % P.length];
+    var visual = '<div class="cs-visual">' + plate(p) + '<div class="cs-note"><p>' + (p.galNote || "The final visuals" + (p.cats.indexOf("Motion Graphics") > -1 || p.cats.indexOf("Animation") > -1 ? " and motion" : "") + " for this project are published in full on Behance.") + "</p>" +
+      '<a class="btn pri" href="' + p.url + '" target="_blank" rel="noopener">' + (p.url === BEHANCE ? "Behance portfolio" : "View on Behance") + " " + ar + "</a></div>";
+    if (p.gal) {
+      visual += '<div class="gal" role="list" aria-label="' + p.title + ' artwork">' + p.gal.map(function (id, j) {
+        var m = mediaOf(id), cap = (p.labels && p.labels[j]) || ((m.t === "v" ? "Animation " : "Piece ") + (j + 1));
+        return '<figure role="listitem"><button class="gi" type="button" data-g="' + j + '" aria-label="Open ' + cap + ' full size">' + tag(m, p.galAlt + " " + (j + 1)) + '</button><figcaption class="mono">' + cap + "</figcaption></figure>";
+      }).join("") + "</div>";
+    }
+    visual += "</div>";
+    var meta = '<div><dt class="mono">Discipline</dt><dd>' + p.cats.join(", ") + "</dd></div>" +
+      (p.client ? '<div><dt class="mono">Client</dt><dd>' + p.client + "</dd></div>" : "") +
+      (p.role ? '<div><dt class="mono">Role</dt><dd>' + p.role + "</dd></div>" : "") +
+      '<div><dt class="mono">' + (p.client ? "Period" : "Published") + "</dt><dd>" + p.date + "</dd></div>" +
+      '<div><dt class="mono">Tools</dt><dd>' + p.tools.join(", ") + "</dd></div>" +
+      (p.result ? '<div><dt class="mono">Result</dt><dd>' + p.result + "</dd></div>" : "");
+    return '<a class="back mono" href="#work">&larr; All work</a><div class="cs-h"><h1 id="h1" tabindex="-1">' + p.title + '</h1><p class="sum">' + p.sum + "</p></div>" +
+      '<dl class="meta">' + meta + "</dl>" + visual +
+      '<div style="margin-top:48px"><div class="blk"><h2>Objective</h2><p>' + p.obj + "</p></div>" +
+      '<div class="blk"><h2>Creative approach</h2><p>' + p.app + "</p></div>" +
+      '<div class="blk"><h2>' + (p.slug === "animated-logo-motion-design" ? "Logos animated" : "Deliverables") + "</h2><ul>" + p.del.map(function (d) { return "<li>" + d + "</li>"; }).join("") + "</ul></div>" +
+      '<div class="blk"><h2>Tools used</h2><div class="tags">' + p.tools.map(function (t) { return "<span>" + t + "</span>"; }).join("") + "</div></div></div>" +
+      '<nav class="pn" aria-label="More projects"><a href="#case-' + prev.slug + '"><span class="mono">&larr; Previous</span><b>' + prev.title + '</b></a><a href="#case-' + next.slug + '"><span class="mono">Next &rarr;</span><b>' + next.title + "</b></a></nav>";
+  }
+
+  /* ---------- routing ---------- */
+  var main = document.getElementById("main");
+  var tcRaf = 0, curCase = null;
+  function route() {
+    var h = (location.hash || "#home").slice(1);
+    var html, name = h, title = "Syed Zain Hussain"; curCase = null;
+    if (h.indexOf("case-") === 0 && bySlug[h.slice(5)]) { var p = bySlug[h.slice(5)]; curCase = p; html = caseStudy(p); name = "work"; title = p.title + " | Syed Zain Hussain"; }
+    else if (views[h]) { html = views[h](); if (h !== "home") title = h.charAt(0).toUpperCase() + h.slice(1) + " | Syed Zain Hussain"; }
+    else { html = views.home(); name = "home"; }
+    closeLB(true);
+    main.innerHTML = '<div class="view">' + html + "</div>";
+    document.title = title;
+    document.querySelectorAll(".nl").forEach(function (a) { if (a.getAttribute("data-r") === name) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+    window.scrollTo(0, 0);
+    var h1 = document.getElementById("h1"); if (h1) h1.focus({ preventScroll: true });
+    startTC(); setupReveal(main);
+    setTimeout(function () { main.querySelectorAll('.rv:not(.in)').forEach(function (el) { var r = el.getBoundingClientRect(); if (r.top < innerHeight && r.bottom > 0) el.classList.add('in'); }); }, 1600);
+  }
+  function startTC() {
+    cancelAnimationFrame(tcRaf);
+    var el = document.getElementById("tc"); if (!el || REDUCE) return;
+    var t0 = performance.now(), last = -1;
+    function pad(n) { return n < 10 ? "0" + n : "" + n; }
+    (function tick(now) {
+      if (!el.isConnected) return;
+      var f = Math.floor((now - t0) / (1000 / 24));
+      if (f !== last) { last = f; var s = Math.floor(f / 24); el.textContent = "TC " + pad(Math.floor(s / 3600) % 100) + ":" + pad(Math.floor(s / 60) % 60) + ":" + pad(s % 60) + ":" + pad(f % 24); }
+      tcRaf = requestAnimationFrame(tick);
+    })(t0);
+  }
+
+  /* ---------- scroll reveal and counters ---------- */
+  var io = ("IntersectionObserver" in window) ? new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      e.target.classList.add("in"); io.unobserve(e.target);
+      var n = e.target.querySelector(".num"); if (n && !REDUCE) count(n);
+    });
+  }, { rootMargin: "0px 0px -6% 0px", threshold: 0.08 }) : null;
+  function setupReveal(root) {
+    if (!io || REDUCE) return;
+    var sel = ".hero > *,.page-h > *,.cs-h > *,.meta,.cs-visual,.stat,.sec-h,.card,.wall,.ix,.caps li,.blk,.cta > *,.tl li,.facts > div,.gal figure,.pn,.sk > div,.ct > div,.filters";
+    root.querySelectorAll(sel).forEach(function (el) {
+      var sibs = el.parentNode ? Array.prototype.indexOf.call(el.parentNode.children, el) : 0;
+      el.style.setProperty("--d", (sibs % 4) * 80 + "ms"); el.classList.add("rv"); io.observe(el);
+    });
+  }
+  function count(el) {
+    var to = +el.getAttribute("data-to"), t0 = performance.now(), dur = 1400;
+    (function step(now) { var k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = Math.round(to * e); if (k < 1) requestAnimationFrame(step); })(t0);
+  }
+
+  /* ---------- lightbox ---------- */
+  var lb = document.getElementById("lb"), lbm = document.getElementById("lb-m"), lbc = document.getElementById("lb-c"), lbl = document.getElementById("lb-l"), lbi = document.getElementById("lb-i");
+  var lbItems = [], lbIdx = 0, lbFrom = null;
+  function showLB() {
+    var it = lbItems[lbIdx]; if (!it) return;
+    lbm.innerHTML = it.m.t === "v" ? '<video src="' + it.m.src + '" poster="' + it.m.poster + '" controls loop playsinline autoplay muted></video>' : '<img src="' + it.m.src + '" alt="' + it.alt + '">';
+    lbc.textContent = it.label; lbi.textContent = (lbIdx + 1) + " / " + lbItems.length;
+    if (it.href) { lbl.hidden = false; lbl.href = it.href; } else lbl.hidden = true;
+  }
+  function openLB(items, idx, from) { lbItems = items; lbIdx = idx; lbFrom = from; lb.hidden = false; showLB(); lb.querySelector(".lb-x").focus(); }
+  function closeLB(quiet) { if (lb.hidden) return; lb.hidden = true; lbm.innerHTML = ""; if (!quiet && lbFrom && lbFrom.isConnected) lbFrom.focus(); }
+  function stepLB(d) { lbIdx = (lbIdx + d + lbItems.length) % lbItems.length; showLB(); }
+  var sx = null;
+  lb.addEventListener("touchstart", function (e) { sx = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener("touchend", function (e) { if (sx === null) return; var dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 50) stepLB(dx < 0 ? 1 : -1); sx = null; });
+  lb.addEventListener("click", function (e) {
+    if (e.target.closest(".lb-x") || e.target === lb) closeLB();
+    else if (e.target.closest(".lb-p")) stepLB(-1);
+    else if (e.target.closest(".lb-n")) stepLB(1);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (lb.hidden) return;
+    if (e.key === "Escape") closeLB(); else if (e.key === "ArrowLeft") stepLB(-1); else if (e.key === "ArrowRight") stepLB(1);
+    else if (e.key === "Tab") { var f = lb.querySelectorAll("button:not([hidden]),a[href]:not([hidden])"); if (!f.length) return; var a = f[0], z = f[f.length - 1]; if (e.shiftKey && document.activeElement === a) { e.preventDefault(); z.focus(); } else if (!e.shiftKey && document.activeElement === z) { e.preventDefault(); a.focus(); } }
+  });
+
+  /* ---------- clicks, form, theme ---------- */
+  function copy(text, note, fallbackEl) {
+    var ok = function () { note.textContent = "Copied."; };
+    var fail = function () { if (fallbackEl) { fallbackEl.focus(); fallbackEl.select(); } note.textContent = "Copy was blocked here. The text is selected, so press your copy shortcut."; };
+    try { navigator.clipboard.writeText(text).then(ok, fail); } catch (e) { fail(); }
+  }
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest("button,a"); if (!t) return;
+    if (t.classList.contains("skip")) { e.preventDefault(); main.focus(); return; }
+    if (t.classList.contains("chip")) {
+      var c = t.getAttribute("data-cat"); state.cat = c; var y = window.scrollY; route(); window.scrollTo(0, y);
+      var again = document.querySelector('.chip[data-cat="' + c + '"]'); if (again) again.focus({ preventScroll: true }); return;
+    }
+    if (t.classList.contains("wi")) {
+      var items = WALL.map(function (w) { return { m: mediaOf(w[0]), alt: w[1], label: w[1], href: "#case-" + w[2] }; });
+      openLB(items, +t.getAttribute("data-w"), t); return;
+    }
+    if (t.classList.contains("gi") && curCase) {
+      var its = curCase.gal.map(function (id, j) { return { m: mediaOf(id), alt: curCase.galAlt, label: (curCase.labels && curCase.labels[j]) || curCase.title, href: null }; });
+      openLB(its, +t.getAttribute("data-g"), t); return;
+    }
+    if (t.id === "cp-mail") {
+      var n = document.getElementById("cp-note"), sel = window.getSelection(), r = document.createRange(); r.selectNodeContents(document.querySelector(".mail")); sel.removeAllRanges(); sel.addRange(r); copy(EMAIL, n);
+    }
+    if (t.id === "out-copy") copy(document.getElementById("out-t").value, document.getElementById("out-note"), document.getElementById("out-t"));
+  });
+  document.addEventListener("submit", function (e) {
+    if (e.target.id !== "cf") return; e.preventDefault();
+    var f = e.target, err = document.getElementById("f-err");
+    var name = f["f-name"].value.trim(), mail = f["f-email"].value.trim(), msg = f["f-msg"].value.trim(), type = f["f-type"].value;
+    if (!name || !mail || !msg) { err.textContent = "Please fill in your name, email and a short message."; return; }
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(mail)) { err.textContent = "That email address doesn't look right. Check it and try again."; return; }
+    err.textContent = "";
+    var body = "Hi Zain,\n\n" + msg + "\n\nProject type: " + type + "\n\n" + name + "\n" + mail;
+    document.getElementById("out-t").value = body;
+    document.getElementById("out-mail").href = "mailto:" + EMAIL + "?subject=" + encodeURIComponent("Project enquiry: " + type) + "&body=" + encodeURIComponent(body);
+    var out = document.getElementById("out"); out.hidden = false; out.scrollIntoView({ block: "nearest" });
+  });
+  document.getElementById("tg").addEventListener("click", function () {
+    var root = document.documentElement, cur = root.getAttribute("data-theme");
+    var dark = cur ? cur === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var next = dark ? "light" : "dark"; root.setAttribute("data-theme", next);
+    try { localStorage.setItem("szh-theme", next); } catch (e) {} bg.colors();
+  });
+  try { var sv = localStorage.getItem("szh-theme"); if (sv) document.documentElement.setAttribute("data-theme", sv); } catch (e) {}
+
+  /* ---------- pointer interactions: tilt, magnet, cursor, hover preview ---------- */
+  var cur = document.getElementById("cur"), curT = document.getElementById("cur-t"), pv = document.getElementById("pv"), pvi = pv.querySelector("img");
+  var mx = -9999, my = -9999, pxx = 0, pyy = 0, pvOn = false;
+  document.addEventListener("pointermove", function (e) {
+    if (e.pointerType && e.pointerType !== "mouse") return;
+    mx = e.clientX; my = e.clientY;
+    if (FINE) {
+      cur.style.transform = "translate(" + mx + "px," + my + "px)"; cur.classList.add("vis");
+      var hot = e.target.closest ? e.target.closest(".card,.ix,.wi,.gi") : null;
+      cur.classList.toggle("big", !!hot); if (hot) curT.textContent = hot.classList.contains("wi") || hot.classList.contains("gi") ? "Open" : "View";
+    }
+    var pl = e.target.closest ? e.target.closest(".card .plate,.cs-visual .plate") : null;
+    if (pl) { var r = pl.getBoundingClientRect(); var f = pl.querySelector(".fan"); if (f) { f.style.setProperty("--tx", ((e.clientX - r.left) / r.width * 2 - 1).toFixed(3)); f.style.setProperty("--ty", ((e.clientY - r.top) / r.height * 2 - 1).toFixed(3)); } }
+    var b = e.target.closest ? e.target.closest(".btn") : null;
+    if (b && FINE) { var q = b.getBoundingClientRect(); b.style.transform = "translate(" + ((e.clientX - q.left - q.width / 2) * .16).toFixed(1) + "px," + ((e.clientY - q.top - q.height / 2) * .26).toFixed(1) + "px)"; }
+  }, { passive: true });
+  document.addEventListener("pointerout", function (e) {
+    var b = e.target.closest ? e.target.closest(".btn") : null; if (b) b.style.transform = "";
+    var pl = e.target.closest ? e.target.closest(".card .plate,.cs-visual .plate") : null; if (pl && !pl.contains(e.relatedTarget)) { var f = pl.querySelector(".fan"); if (f) { f.style.setProperty("--tx", 0); f.style.setProperty("--ty", 0); } }
+    if (!e.relatedTarget && FINE) cur.classList.remove("vis");
+  });
+  if (FINE) {
+    document.addEventListener("mouseover", function (e) { var a = e.target.closest ? e.target.closest(".ix[data-img]") : null; if (a) { pvi.src = a.getAttribute("data-img"); pv.classList.add("on"); pvOn = true; } });
+    document.addEventListener("mouseout", function (e) { var a = e.target.closest ? e.target.closest(".ix") : null; if (a && !a.contains(e.relatedTarget)) { pv.classList.remove("on"); pvOn = false; } });
+    (function loop() { pxx += (mx - pxx) * .16; pyy += (my - pyy) * .16; if (pvOn) pv.style.transform = "translate(" + (pxx + 28) + "px," + (pyy - 90) + "px) rotate(" + ((mx - pxx) * .04).toFixed(2) + "deg)"; requestAnimationFrame(loop); })();
+  }
+
+  /* ---------- animated background: contour lines + depth glows, anchored to page height ---------- */
+  function bg2d() {
+    var cv = document.getElementById("bg"), ctx = cv.getContext("2d"), W = 0, H = 0, dpr = 1, ink = [15, 17, 21], acc = [46, 53, 230], dark = false, sy = 0, t = 0, run = false;
+    function rgb(s) { s = s.trim(); if (s.charAt(0) === "#") { if (s.length === 4) s = "#" + s[1] + s[1] + s[2] + s[2] + s[3] + s[3]; return [parseInt(s.substr(1, 2), 16), parseInt(s.substr(3, 2), 16), parseInt(s.substr(5, 2), 16)]; } var m = s.match(/\d+/g); return m ? [+m[0], +m[1], +m[2]] : [128, 128, 128]; }
+    function colors() { var cs = getComputedStyle(document.documentElement); ink = rgb(cs.getPropertyValue("--ink")); acc = rgb(cs.getPropertyValue("--accent")); var b = rgb(cs.getPropertyValue("--bg")); dark = (b[0] + b[1] + b[2]) < 300; draw(); }
+    function size() { dpr = Math.min(window.devicePixelRatio || 1, 1.5); W = window.innerWidth; H = window.innerHeight; cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); draw(); }
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      var docH = Math.max(document.documentElement.scrollHeight, H), n, i;
+      /* glows are pinned to document positions, so they drift past as you scroll and the surface reads as one continuous sheet */
+      var orbs = Math.max(4, Math.round(docH / 900));
+      for (n = 0; n < orbs; n++) {
+        var fx = (n * 0.618 + 0.17) % 1, ox = W * (0.1 + 0.8 * fx) + Math.sin(t * 0.00022 + n * 2.1) * 90;
+        var oy = (n + 0.5) * (docH / orbs) - sy * 0.82 + Math.cos(t * 0.00018 + n * 1.7) * 70, rad = Math.min(Math.max(W, 700), 1100) * 0.46;
+        if (oy < -rad || oy > H + rad) continue;
+        var g = ctx.createRadialGradient(ox, oy, 0, ox, oy, rad), a = dark ? 0.2 : 0.13, c = acc[0] + "," + acc[1] + "," + acc[2];
+        g.addColorStop(0, "rgba(" + c + "," + a + ")"); g.addColorStop(1, "rgba(" + c + ",0)"); ctx.fillStyle = g; ctx.fillRect(ox - rad, oy - rad, rad * 2, rad * 2);
+      }
+      /* contour lines: line n sits at document height n*S, moving at 0.55 of scroll speed for depth */
+      var S = 34, par = sy * 0.55, first = Math.floor((par - 80) / S), last = Math.ceil((par + H + 80) / S), step = 28;
+      ctx.lineWidth = 1; ctx.lineJoin = "round";
+      for (n = first; n <= last; n++) {
+        var base = n * S - par, accent = ((n % 7) + 7) % 7 === 0;
+        ctx.beginPath();
+        for (var x = -step; x <= W + step; x += step) {
+          var amp = 16 + 11 * Math.sin(n * 0.21), y = base + amp * Math.sin(x * 0.0042 + t * 0.00042 + n * 0.33) + 9 * Math.sin(x * 0.011 - t * 0.0003 + n * 0.17 + sy * 0.0016);
+          var dx = x - mx, dy = y - my, d2 = dx * dx + dy * dy;
+          if (d2 < 90000) { var d = Math.sqrt(d2) + 1, push = 34 * Math.exp(-d2 / 14000); y += dy / d * push; }
+          if (x === -step) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.strokeStyle = accent ? "rgba(" + acc[0] + "," + acc[1] + "," + acc[2] + "," + (dark ? 0.34 : 0.3) + ")" : "rgba(" + ink[0] + "," + ink[1] + "," + ink[2] + "," + (dark ? 0.085 : 0.075) + ")";
+        ctx.lineWidth = accent ? 1.2 : 1; ctx.stroke();
+      }
+    }
+    function frame(now) { if (!run) return; t = now; draw(); requestAnimationFrame(frame); }
+    function start() { if (REDUCE) return; run = true; requestAnimationFrame(frame); }
+    window.addEventListener("resize", size);
+    window.addEventListener("scroll", function () { sy = window.scrollY; var mxS = Math.max(1, document.documentElement.scrollHeight - window.innerHeight); document.getElementById("prog").style.transform = "scaleX(" + Math.min(1, sy / mxS).toFixed(4) + ")"; if (REDUCE) draw(); }, { passive: true });
+    document.addEventListener("visibilitychange", function () { if (document.hidden) run = false; else if (!run) start(); });
+    if (window.matchMedia) { var mq = window.matchMedia("(prefers-color-scheme: dark)"); if (mq.addEventListener) mq.addEventListener("change", function () { setTimeout(colors, 30); }); }
+    size(); colors(); start();
+    return { colors: colors };
+  }
+  /* ---------- 3D liquid mirror background (WebGL), continuous with page scroll ---------- */
+  function bgGL() {
+    var cv = document.getElementById("bg"), gl = null;
+    try { gl = cv.getContext("webgl", { antialias: false, alpha: false, powerPreference: "low-power" }); } catch (e) {}
+    function bail() { var n = cv.cloneNode(false); cv.parentNode.replaceChild(n, cv); return null; }
+    if (!gl) return null;
+    var VS = "attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}";
+    var FS = [
+      "precision highp float;",
+      "uniform vec2 R;uniform float T;uniform float S;uniform float L;uniform vec3 B;uniform vec3 M;",
+      "vec2 pm;",
+      "float h21(vec2 p){p=fract(p*vec2(123.34,456.21));p+=dot(p,p+45.32);return fract(p.x*p.y);}",
+      "float vn(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(h21(i),h21(i+vec2(1.,0.)),f.x),mix(h21(i+vec2(0.,1.)),h21(i+vec2(1.,1.)),f.x),f.y);}",
+      "float fbm(vec2 p){float a=.5,s=0.;for(int i=0;i<3;i++){s+=a*vn(p);p=p*2.03+vec2(17.,9.);a*=.5;}return s;}",
+      "float H(vec2 p){",
+      " float t=T*.11;",
+      " vec2 q=p+2.2*vec2(fbm(p*.35+vec2(0.,t))-.5,fbm(p*.35+vec2(7.3,-t))-.5);",
+      " float f=sin(q.y*1.0+1.9*sin(q.x*.42+t*1.4)+t*.9);",
+      " float band=exp(-f*f*3.4);",
+      " float rip=(fbm(q*1.05+vec2(t*1.6,-t))-.5)*.5+.1*sin(q.x*2.3+q.y*1.7+T*.3);",
+      " vec2 d=p-pm;",
+      " float bump=M.z*.55*exp(-dot(d,d)*2.2);",
+      " return band*(1.+rip*1.3)*1.25+bump*band;",
+      "}",
+      "vec3 pal(float c){c=fract(c)*5.;vec3 a=vec3(.12,.32,1.),b=vec3(.5,.22,1.),m=vec3(1.,.2,.7),o=vec3(1.,.55,.3),y=vec3(.2,.85,1.);float k=fract(c);k=k*k*(3.-2.*k);if(c<1.)return mix(a,b,k);if(c<2.)return mix(b,m,k);if(c<3.)return mix(m,o,k);if(c<4.)return mix(o,y,k);return mix(y,a,k);}",
+      "void main(){",
+      " vec2 fc=gl_FragCoord.xy;float u=4.4/R.y;",
+      " vec2 p=vec2(fc.x,R.y-fc.y+S)*u;",
+      " pm=vec2(M.x,R.y-M.y+S)*u;",
+      " float e=.03;",
+      " float h0=H(p);",
+      " float hx=H(p+vec2(e,0.))-H(p-vec2(e,0.));",
+      " float hy=H(p+vec2(0.,e))-H(p-vec2(0.,e));",
+      " vec3 n=normalize(vec3(-hx,hy,e*2.3));",
+      " float ndv=clamp(n.z,0.,1.);",
+      " vec3 r=reflect(vec3(0.,0.,-1.),n);",
+      " float env=smoothstep(.15,1.,.5+.5*sin(r.x*4.5+r.y*2.8+1.2));",
+      " env+=pow(max(dot(r,normalize(vec3(.35,.55,.75))),0.),22.)*1.3;",
+      " vec3 base=pal(ndv*1.1+r.x*.5+r.y*.3+T*.016+p.y*.03);",
+      " vec3 col=base*(.12+1.1*env)+pow(1.-ndv,2.2)*pal(r.x*.7+.3)*.7;",
+      " float a=smoothstep(.07,.42,h0);",
+      " vec3 od=mix(B,min(col*.78,vec3(.92)),a);",
+      " vec3 lc=mix(vec3(1.),clamp(col,0.,1.),.5);",
+      " vec3 ol=mix(B,lc,a*.78);",
+      " vec3 o=mix(od,ol,L);",
+      " o+=(h21(fc+fract(T))-.5)/200.;",
+      " gl_FragColor=vec4(o,1.);",
+      "}"
+    ].join("\n");
+    function sh(type, src) { var s = gl.createShader(type); gl.shaderSource(s, src); gl.compileShader(s); return gl.getShaderParameter(s, gl.COMPILE_STATUS) ? s : null; }
+    var v = sh(gl.VERTEX_SHADER, VS), f = sh(gl.FRAGMENT_SHADER, FS), pr = gl.createProgram();
+    if (!v || !f) return bail();
+    gl.attachShader(pr, v); gl.attachShader(pr, f); gl.linkProgram(pr);
+    if (!gl.getProgramParameter(pr, gl.LINK_STATUS)) return bail();
+    gl.useProgram(pr);
+    var buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+    var loc = gl.getAttribLocation(pr, "p"); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+    var U = {}; ["R", "T", "S", "L", "B", "M"].forEach(function (k) { U[k] = gl.getUniformLocation(pr, k); });
+    var scale = 0.6, W = 0, Hh = 0, light = 0, bgc = [.05, .05, .06], t0 = performance.now(), run = false, last = 0, mz = 0, coarse = !FINE;
+    function size() {
+      scale = window.innerWidth < 700 ? 0.5 : 0.6; W = window.innerWidth; Hh = window.innerHeight;
+      cv.width = Math.max(2, Math.round(W * scale)); cv.height = Math.max(2, Math.round(Hh * scale)); gl.viewport(0, 0, cv.width, cv.height); draw(performance.now());
+    }
+    function colors() {
+      var cs = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim(), c;
+      if (cs.charAt(0) === "#") { if (cs.length === 4) cs = "#" + cs[1] + cs[1] + cs[2] + cs[2] + cs[3] + cs[3]; c = [parseInt(cs.substr(1, 2), 16), parseInt(cs.substr(3, 2), 16), parseInt(cs.substr(5, 2), 16)]; } else c = [12, 13, 16];
+      bgc = [c[0] / 255, c[1] / 255, c[2] / 255]; light = (c[0] + c[1] + c[2]) > 380 ? 1 : 0; draw(performance.now());
+    }
+    function draw(now) {
+      var sy = window.scrollY || 0, want = (mx > -999 && FINE) ? 1 : 0; mz += (want - mz) * 0.08;
+      gl.uniform2f(U.R, cv.width, cv.height); gl.uniform1f(U.T, REDUCE ? 6 : (now - t0) / 1000); gl.uniform1f(U.S, sy * 0.5 * scale);
+      gl.uniform1f(U.L, light); gl.uniform3f(U.B, bgc[0], bgc[1], bgc[2]);
+      gl.uniform3f(U.M, mx * scale, Hh * scale - (Hh - my) * scale + 0, mz);
+      gl.drawArrays(gl.TRIANGLES, 0, 3);
+    }
+    function frame(now) { if (!run) return; if (!coarse || now - last > 32) { last = now; draw(now); } requestAnimationFrame(frame); }
+    function start() { if (REDUCE || run) return; run = true; requestAnimationFrame(frame); }
+    cv.addEventListener("webglcontextlost", function (e) { e.preventDefault(); run = false; });
+    cv.addEventListener("webglcontextrestored", function () { size(); start(); });
+    window.addEventListener("resize", size);
+    window.addEventListener("scroll", function () { var sy = window.scrollY, mxS = Math.max(1, document.documentElement.scrollHeight - window.innerHeight); document.getElementById("prog").style.transform = "scaleX(" + Math.min(1, sy / mxS).toFixed(4) + ")"; if (REDUCE) draw(performance.now()); }, { passive: true });
+    document.addEventListener("visibilitychange", function () { if (document.hidden) run = false; else start(); });
+    if (window.matchMedia) { var mq = window.matchMedia("(prefers-color-scheme: dark)"); if (mq.addEventListener) mq.addEventListener("change", function () { setTimeout(colors, 30); }); }
+    size(); colors(); start();
+    return { colors: colors };
+  }
+  var bg = bgGL() || bg2d();
+
+  var clock = document.getElementById("clock");
+  function tick() { try { clock.textContent = new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Karachi", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date()) + " PKT"; } catch (e) {} }
+  tick(); setInterval(tick, 30000);
+  window.addEventListener("hashchange", route);
+  route();
+})();
+</script>
+
+</body></html>
